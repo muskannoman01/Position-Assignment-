@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes Layout</title>
+    <link rel="stylesheet" href="box style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="orange">
+            Well, if crime fighters fight crime and fire fighters fight fire, what do freedom fighters fight? They never mention that part to us, do they? - George Carlin
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis blanditiis, iure nobis excepturi adipisci possimus fuga veritatis illum ullam inventore facere eius culpa voluptatibus libero obcaecati dolores beatae totam commodi.
+            Temporibus, architecto accusantium. Enim vero, temporibus perferendis ipsa at aut et obcaecati illo deleniti, fuga quia dolores? Aperiam quasi ipsam dicta facilis quam commodi, accusantium eaque velit, odio suscipit similique?
+        </div>
+        <div class="blue-title">
+            Brainy Quote
+        </div>
+        <div class="green">
+           
+            All you need in this life is ignorance and confidence, and then success is sure. - Mark Twain
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum unde temporibus pariatur corporis porro quod consequatur dignissimos totam possimus necessitatibus suscipit minima, non obcaecati dolores. Ipsa quia amet voluptate a?
+        Illum quo perspiciatis ab natus vero. Rem vel accusamus eius dolores tempora sit asperiores omnis eveniet. Sit animi cupiditate autem nisi nostrum voluptates est, voluptatum impedit quia, architecto accusantium laboriosam!
+        </div>
+        <div class="yellow">
+            Great minds discuss ideas; average minds discuss events; small minds discuss people. - Eleanor Roosevelt
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque molestiae tenetur autem corrupti quos iure provident culpa, accusantium fuga eum dicta ut explicabo reprehenderit eaque, est fugiat asperiores, magni dolorem.
+            Earum, obcaecati iure. Culpa a neque reprehenderit explicabo libero corrupti, sapiente totam illo necessitatibus voluptate ab? Asperiores voluptatem consequatur accusamus dolores maiores enim obcaecati odio harum omnis? Perferendis, sunt nam?
+        </div>
+        <div class="blue">
+            Turns out you have a really fun time if you go to work every day and focus on being silly and funny and happy! - Hannah Murray
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eius, quod officiis explicabo porro sint rem praesentium harum hic ipsam saepe dicta, nemo possimus quis iusto! Architecto, voluptatem? Hic, quod!
+        Possimus atque quas esse provident accusantium illum a iure animi dolore, aperiam incidunt corporis ad totam non laborum eos consectetur, voluptas placeat amet neque. Distinctio illo facilis eius laborum pariatur?
+        </div>
+    </div>
+</body>
+</html>  
+
+CSS Start
+
+.quote {
+    padding: 15px;
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.orange {
+    border: 4px solid orange;
+    word-spacing: 5px;
+    position: relative;
+    top: 20px;
+    position: relative;
+    justify-self: left;
+    width: 400px;
+    height: 250px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding: 20px ;
+}
+.blue-title {
+    background-color:  blue;
+    font-size: 36px;
+    color: rgb(235, 235, 240);
+    position: relative;
+    top: -300px;
+    justify-self: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 1opx;
+    margin-left: 10px;
+    padding: 10px ;
+}
+.green {
+    border: 4px solid green;
+    position: relative;
+    top: -400px;
+    justify-self: right;
+    width: 400px;
+    height: 250px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding: 20px ;
+    word-spacing: 5px;
+}
+.yellow {
+    border: 4px solid yellow;
+    position: relative;
+    bottom: 200px;
+    justify-self: left;
+    width: 400px;
+    height: 250px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding: 20px ;
+    word-spacing: 5px;
+}
+.blue {
+    border: 4px solid blue;
+    position: relative;
+    bottom: 528px;
+    justify-self: right;
+    width: 400px;
+    height: 250px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding: 20px ;
+    word-spacing: 5px;
+}
